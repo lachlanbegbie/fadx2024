@@ -1,30 +1,47 @@
 /* @import */
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* Variable Storage */
 :root {
-    
+    --fadx-blue: #001854;
+    --fadx-black: #221f1f;
+    --fadx-white: #ffffff;
 }
 
 /* Root Definitions */
 body {
-
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--fadx-blue);
+    
+    padding: 4em 10%;
 }
 
 h1 {
+    font-size: 4em;
+    font-weight: 900;
 
+    padding-bottom: 0.6em;
 }
 
 h2 {
+    font-size: 3.5em;
+    font-weight: 700;
 
+    padding-bottom: 0.4em;
 }
 
 h3 {
+    font-size: 3em;
+    font-weight: 400;
 
+    padding-bottom: 0.3em;
 }
 
 h4 {
-
+    font-size: 1.5em;
 }
 
 h5 {
@@ -32,16 +49,73 @@ h5 {
 }
 
 h6 {
-
+    font-size: 2em;
 }
 
 p {
+    font-size: 1.8em;
+    font-weight: 300;
 
+    line-height: 1.5;
+    padding-bottom: 0.3em;
 }
 
 
 /* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo {
-    padding: 2em 3em;
-    background-image: url("assets/img/logo.png");
+    height: 1.5em;
+    width: 4em;
+    color: rgba(0, 0, 0, 0);
+
+    background-image: url("../img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: right;
+}
+
+.social-icons h6 {
+    padding: 0 0.5em;
+}
+
+#hero {
+    
+}
+
+.hero-image {
+    width: 100%;
+    padding: 12em 0 5em 0;
+}
+
+.hero-details {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-details h4 {
+    padding: 0 1em;
+}
+
+.call-action {
+    padding: 0.6em 1.2em;
+    width: min-content;
+
+    margin: 6em auto 0 auto;
+
+    color: var(--fadx-white);
+    background-color: var(--fadx-blue);
+    border-radius: 0.5em;
+
+    text-align: center;
+    line-height: 1.3;
 }
