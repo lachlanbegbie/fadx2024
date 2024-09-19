@@ -23,6 +23,25 @@ h3 {
 
 }
 
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
 p {
 
+}
+
+
+/* Header */
+.logo {
+    padding: 2em 3em;
+    background-image: url("assets/img/logo.png");
 }
