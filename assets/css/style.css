@@ -53,11 +53,23 @@ h6 {
 }
 
 p {
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: 300;
 
     line-height: 1.5;
-    padding-bottom: 0.3em;
+    padding-bottom: 1em;
+}
+
+a {
+    color: var(--fadx-black);
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.section {
+    margin-top: 10em;
 }
 
 
@@ -82,14 +94,16 @@ header {
 .social-icons {
     display: flex;
     justify-content: right;
+    color: var(--fadx-black);
 }
 
-.social-icons h6 {
-    padding: 0 0.5em;
+.social-icons i {
+    font-size: 2.5em;
+    padding: 0 0.7em;
 }
 
 #hero {
-    
+    border-bottom: var(--fadx-black) 2px solid;
 }
 
 .hero-image {
@@ -100,22 +114,36 @@ header {
 .hero-details {
     display: flex;
     justify-content: center;
+    color: var(--fadx-black);
 }
 
-.hero-details h4 {
+.hero-details li {
     padding: 0 1em;
 }
 
 .call-action {
     padding: 0.6em 1.2em;
-    width: min-content;
+    width: 5em;
 
-    margin: 6em auto 0 auto;
+    margin: 6em auto 6em auto;
 
     color: var(--fadx-white);
     background-color: var(--fadx-blue);
     border-radius: 0.5em;
 
+    font-weight: 600;
     text-align: center;
     line-height: 1.3;
+}
+
+
+/* About */
+#about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-para {
+    padding-right: 5em;
+    width: 50%;
 }
