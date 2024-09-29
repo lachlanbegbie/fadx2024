@@ -147,3 +147,55 @@ header {
     padding-right: 5em;
     width: 50%;
 }
+
+.company img{
+    width: 100%;
+    height: 100%;
+}
+
+.company{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 10em;
+}
+
+.item1{
+    grid-column: 1 / span 3;
+}
+
+.item2{
+    grid-column: 4 / span 3;
+}
+
+.item3{
+    grid-column: 1 / span 2;
+}
+
+.item4{
+    grid-column: 3 / span 2;
+}
+
+.item5{
+    grid-column: 5 / span 2;
+}
+
+.end{
+    border-top: var(--fadx-black) 2px solid;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.end img{
+    padding-top: 5em;
+    width: 70%;
+    height: 60%;
+}
+
+.end p{
+    padding-top: 3em;
+}
