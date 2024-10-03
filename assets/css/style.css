@@ -136,6 +136,85 @@ header {
     line-height: 1.3;
 }
 
+/* Students */
+#students {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 260px));
+    justify-content: space-between;
+    gap: 2em;
+    width: 100%;
+    /* padding-bottom: 10em; */
+    max-width: 100vw;
+}
+
+.card{
+    border-radius: 12px;
+    border: 3px solid #001854;
+    background-color: #00185436;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7em;
+}
+
+#IxD, #ID, #VC{
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.813);
+    background-clip: padding-box;
+    padding: 10px;
+}
+
+#IxD::after, #ID::after, #VC::after {
+    position: absolute;
+    top: -3px; bottom: -3px;
+    left: -3px; right: -3px;
+    content: '';
+    z-index: -1;
+    border-radius: 12px;
+}
+
+#IxD::after{
+    background: linear-gradient(rgb(221, 0, 255), rgb(115, 0, 255));
+}
+
+#ID::after{
+    background: linear-gradient(rgb(255, 162, 0), rgb(223, 71, 0));
+}
+
+#VC::after{
+    background: linear-gradient(rgb(86, 241, 255), rgb(0, 255, 123));
+}
+
+.card .social-icons{
+    justify-content: center;
+    flex-direction: row;
+    font-size: 0.7em;
+    padding: 0.7em;
+}
+
+.card h4{
+    display: inline-block;
+    padding: 0;
+}
+
+.card img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    width: auto;
+}
+
 
 /* About */
 #about {
