@@ -1,0 +1,50 @@
+{
+	"students": {
+	  "students": [
+		{
+		  "name": "Lachlan Begbie",
+		  "discipline": "intdes",
+		  "bio": "\"I'm Lachlan Begbie",
+		  "projectbio": " and I've just completed my Bachelor of Design (Interaction Design). I have engaged with projects to develop usable digital systems",
+		  "linkedin": " and considered the application of user psychology to the design of the web.\"",
+		  "instagram": "\"The project I have on display is a web-based portfolio for a photographer. It considers the way items are collected online",
+		  "portfolio": " and how the work of the artist is best put on display.\"",
+		  "headshot": "www.linkedin.com/in/lachlan-begbie-a5a273290",
+		  "project\r": "https://www.instagram.com/begbie_interactions"
+		},
+		{
+		  "name": "Ezra Readhead",
+		  "discipline": "viscom",
+		  "bio": "I'm Ezra Readhead and I'm and interraction designer and i love do do X and Y for Z",
+		  "projectbio": "\"Heres my project",
+		  "linkedin": " I think its pretty cool!\"",
+		  "instagram": "https://www.linkedin.com/in/ezra-readhead/",
+		  "portfolio": "https://www.instagram.com/cavocollective/",
+		  "headshot": "https://cavocollective.squarespace.com/config/",
+		  "project\r": "hs-lachlanbegbie.jpg"
+		},
+		{
+		  "name": "Navya Vinod Moorthy",
+		  "discipline": "inddes",
+		  "bio": "\"Hi",
+		  "projectbio": " I am Navya and I am a Industrial Design graduate. \"",
+		  "linkedin": "The project disaplayed is a piece of furniture made during my last year",
+		  "instagram": "https://www.linkedin.com/in/navya-vinod-moorthy",
+		  "portfolio": "https://www.instagram.com/studio.navyaa/",
+		  "headshot": "studionavyaa.com.au",
+		  "project\r": "hs-lachlanbegbie.jpg"
+		},
+		{
+		  "name": "Maxwell Corcoran",
+		  "discipline": "digmed",
+		  "bio": "I'm max corcoran and I'm an interaction design student and i love do DESIGN AND STUFF",
+		  "projectbio": "here is a really cool website that i made WAHOO",
+		  "linkedin": "https://www.linkedin.com/in/maxiswell ",
+		  "instagram": "https://www.instagram.com/cavocollective/",
+		  "portfolio": "begbieinteractions.com.au",
+		  "headshot": "hs-randomstudent.jpg",
+		  "project\r": "pi-randomstudent.jpg"
+		}
+	  ]
+	}
+  }
