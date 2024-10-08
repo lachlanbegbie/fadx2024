@@ -52,7 +52,7 @@ h4 {
 }
 
 h5 {
-
+    
 }
 
 h6 {
@@ -142,6 +142,27 @@ header .box {
 .social-icons i {
     font-size: 2em;
     padding: 0 0.8em;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: right;
+    color: var(--fadx-black);
+}
+
+.media-icons i {
+    font-size: 2em;
+    padding: 0 0.8em;
+}
+
+.media-icons a {
+    color: var(--fadx-white);
+    display: flex;
+    align-items: center;
+}
+
+.media-icons h5 {
+    font-family: "Space Grotesk", sans-serif;
 }
 
 /* Hero */
@@ -382,15 +403,15 @@ iframe{
     left: -2px; right: -2px;
 }
 
-#IxD::after{
+#intdes::after{
     background: linear-gradient(to right,#C344F9, #5C2EDB, #331A6E);
 }
 
-#ID::after{
+#inddes::after{
     background: linear-gradient(to right, #ffb70e, #e76718, #623D20);
 }
 
-#VC::after{
+#viscom::after{
     background: linear-gradient(to right,#5bc5ff, #3fe265,  #013d2c);
 }
 
