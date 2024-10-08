@@ -1,0 +1,62 @@
+{
+	"students": {
+	  "students": [
+		{
+		  "name": "Lachlan Begbie",
+		  "discipline": "intdes",
+
+		  "headshot": "hs-lachlanbegbie.jpg",
+		  "bio": "I'm Lachlan Begbie, and I've just completed my Bachelor of Design (Interaction Design). I have engaged with projects to develop usable digital systems, and considered the application of user psychology to the design of the web.",
+		  
+		  "project": "pi-lachlanbegbie.jpg",
+		  "projectbio": "The project I have on display is a web-based portfolio for a photographer. It considers the way items are collected online, and how the work of the artist is best put on display.",
+		  
+		  "portfolio": "https://www.begbieinteractions.com.au",
+		  "linkedin": "https://www.linkedin.com/in/lachlan-begbie-a5a273290",
+		  "instagram": "https://www.instagram.com/begbie_interactions"
+		},
+		{
+		  "name": "Ezra Readhead",
+		  "discipline": "viscom",
+		  
+		  "headshot": "hs-ezrareadhead.jpg",
+		  "bio": "I'm Ezra Readhead and I'm and interraction designer and i love do do X and Y for Z",
+		  
+		  "project": "pi-ezrareadhead.jpg",
+		  "projectbio": "Heres my project, I think its pretty cool!",
+		  
+		  "portfolio": "https://www.begbieinteractions.com.au",
+		  "linkedin": "https://www.linkedin.com/in/lachlan-begbie-a5a273290",
+		  "instagram": "https://www.instagram.com/begbie_interactions"
+		},
+		{
+		  "name": "Navya Vinod Moorthy",
+		  "discipline": "inddes",
+		  
+		  "headshot": "hs-navyavinodmoorthy.jpg",
+		  "bio": "Hi, I am Navya and I am a Industrial Design graduate. ",
+		  
+		  "project": "pi-navyavinodmoorthy.jpg",
+		  "projectbio": "The project disaplayed is a piece of furniture made during my last year",
+		  
+		  "portfolio": "https://www.begbieinteractions.com.au",
+		  "linkedin": "https://www.linkedin.com/in/lachlan-begbie-a5a273290",
+		  "instagram": "https://www.instagram.com/begbie_interactions"
+		},
+		{
+		  "name": "Maxwell Corcoran",
+		  "discipline": "digmed",
+		  
+		  "headshot": "hs-maxwellcorcoran.jpg",
+		  "bio": "I'm max corcoran and I'm an interaction design student and i love do DESIGN AND STUFF",
+		  
+		  "project": "pi-maxwellcorcoran.jpg",
+		  "projectbio": "here is a really cool website that i made WAHOO",
+		  
+		  "portfolio": "https://www.begbieinteractions.com.au",
+		  "linkedin": "https://www.linkedin.com/in/lachlan-begbie-a5a273290",
+		  "instagram": "https://www.instagram.com/begbie_interactions"
+		}
+	  ]
+	}
+  }
