@@ -65,6 +65,11 @@ function addDataCard(data) {
                 <a href="${data[i].portfolio}" target="_blank" class="icon"><i class="fa-solid fa-globe"></i></a>
             </div>
         `
+
+        // set attributes in HTML to be used for modal
+        card.setAttribute('modal-index', `${data[i].id}`);
+        card.setAttribute('onClick', `openModal(${data[i].id})`);
+
         // add the current iteration to the end of the container's child list
         container.appendChild(card);
     }
