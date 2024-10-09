@@ -616,7 +616,7 @@ footer .social-icons{
     margin-top: 1em;
 }
 
-.modal img {
+.modal .modal-headshot {
     max-width: 100%;
     max-height: 26em;
 
@@ -646,6 +646,7 @@ footer .social-icons{
 
 .modal-project img {
     object-fit: cover;
+    border-radius: 1em;
 }
 
 .modal-project-bio {

@@ -24,7 +24,7 @@ async function fillModal(modalIndex) {
         containerItem.innerHTML = `
             <div class="modal-intro">
                 <div class="image-links">
-                    <img src="./assets/img/student/hs-lachlanbegbie.jpg">
+                    <img src="./assets/img/student/hs-lachlanbegbie.jpg" class="modal-headshot">
 
                     <div class="modal-social-icons">
                         <a href="#" target="_blank" class="icon"><i class="fa-brands fa-linkedin"></i></a>
@@ -44,7 +44,7 @@ async function fillModal(modalIndex) {
             </div>
 
             <div class="modal-project">
-                <img src="./assets/img/student/pi-lachlanbegbie.jpg">
+                <img src="./assets/img/student/pi-lachlanbegbie.jpg" class="modal-proj-img">
 
                 <p class="modal-project-bio">The project I have on display is a web-based portfolio for a photographer. It considers the way 
                 items are collected online, and how the work of the artist is best put on display.</p>
