@@ -66,7 +66,7 @@ async function openModal(modalIndex) {
     
     console.log("Here!")
 
-    // document.getElementById('body').classList.add('scrollFreeze');
+    document.getElementById('body').classList.add('scrollFreeze');
 
     modal.classList.remove('hidden');
     modalBackground.classList.remove('hidden');
