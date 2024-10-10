@@ -107,14 +107,11 @@ header .box {
     position: absolute;
     left: 0;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 60%;
     grid-template-rows: max-content;
-    row-gap: 4em;
+    column-gap: 10em;
     text-align: 0;
-}
-
-.box .social-icons i{
-    color: white;
+    align-items: center;
 }
 
 .box p{
@@ -134,9 +131,11 @@ header .box {
 }
 
 .social-icons {
+    color: white;
     display: flex;
     justify-content: right;
     color: var(--fadx-black);
+    flex-direction: row;
 }
 
 .social-icons i {
@@ -152,7 +151,7 @@ header .box {
 
 .media-icons i {
     font-size: 2em;
-    padding: 0 0.8em;
+    padding:  0 0 0 0.8em;
 }
 
 .media-icons a {
@@ -251,10 +250,12 @@ header .box {
     color: var(--fadx-black);
     background-color: var(--fadx-blue);
     transition: .5s;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     line-height: 1.3;
     padding: .7em;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 .call-action:hover{
@@ -373,7 +374,6 @@ iframe{
     background-size: cover;
     background-position: center;
     position: relative;
-    border-radius: 500px;
     background-color: rgba(255, 255, 255, .9);
     background-clip: padding-box;
     width: max-content;
@@ -389,18 +389,21 @@ iframe{
     padding: 5px;
     transition: 0.5s;
     border: 2px solid transparent;
+    font-weight: 700;
+    border-radius: 8px;
 }
 
 .dicipline::after, .call-action::after{
     position: absolute;
     content: '';
-    border-radius: 500px;
+    border-radius: 15px;
     mix-blend-mode: lighten;
 }
 
 .dicipline::after{
     top: -2px; bottom: -2px;
     left: -2px; right: -2px;
+    border-radius: 8px;
 }
 
 #intdes::after{
@@ -408,11 +411,11 @@ iframe{
 }
 
 #inddes::after{
-    background: linear-gradient(to right, #ffb70e, #e76718, #623D20);
+    background: linear-gradient(to right, #ffa600, #e76718, #623D20);
 }
 
 #viscom::after{
-    background: linear-gradient(to right,#5bc5ff, #3fe265,  #013d2c);
+    background: linear-gradient(to right,#00c968, #009df2,  #011c3d);
 }
 
 /* Sponsors */
@@ -462,19 +465,30 @@ iframe{
 footer{
     background-color: #221f1f;
     color: white;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
 }
 
 footer a{
     color: white;
+    font-size: 1em;
+    height: max-content;
 }
 
-footer .social-icons{
-    height: 100%;
+/* footer .social-icons{
     align-items: end;
-}
+    background-color: red;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+} */
 
 .svg-container {
     width: auto;
+    display:block;
+    align-items: center;
+    justify-content: center;
 }
    
 .svg-container img {
