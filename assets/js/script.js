@@ -1,8 +1,7 @@
-
-async function doStuff() {
+async function doCardStuff() {
     // declare a variable for json data path
     const jsonData = "./assets/data/testdata.json";
-    
+
     try {
         // fetch data and store in variable "studentData"
         const response = await fetch(jsonData);
@@ -16,10 +15,10 @@ async function doStuff() {
         console.error(error.message);
     }
 
-    
+
 }
 
-doStuff();
+doCardStuff();
 
 
 
@@ -30,7 +29,7 @@ function addDataCard(data) {
     // console.log(data);
 
     // loop through each item to fill a card
-    for (let i=0; i < data.length; i++) {
+    for (let i = 0; i < data.length; i++) {
         // console.log(data[i]);
 
         // change discipline codes into string text
@@ -51,7 +50,7 @@ function addDataCard(data) {
         // create card element and give it a class
         let card = document.createElement("div");
         card.className = "card";
-        
+
         // fill the card with HTML data
         card.innerHTML = `
             <img src="./assets/img/student/${data[i].headshot}" alt="">
