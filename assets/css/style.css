@@ -107,7 +107,7 @@ header .box {
     position: absolute;
     left: 0;
     display: grid;
-    grid-template-columns: 30% 60%;
+    grid-template-columns: 20% auto;
     grid-template-rows: max-content;
     column-gap: 10em;
     text-align: 0;
@@ -476,13 +476,9 @@ footer a{
     height: max-content;
 }
 
-/* footer .social-icons{
-    align-items: end;
-    background-color: red;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-} */
+.box p{
+    font-size: 1.3em;
+}
 
 .svg-container {
     width: auto;
