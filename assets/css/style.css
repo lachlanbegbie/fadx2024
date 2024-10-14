@@ -618,6 +618,8 @@ footer a{
     position: fixed;
     top: 0;
     right: 0;
+
+    height: 100dvh;
     /* bottom: 0; */
 
     z-index: 300;
@@ -631,8 +633,6 @@ footer a{
     float: right;
 
     padding: 3.5em 4em;
-
-    overflow-y: scroll;
 }
 
 .modal-intro {
@@ -698,11 +698,14 @@ footer a{
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .modal-project img {
     object-fit: cover;
     border-radius: 1em;
+
+    width: 80%;
 }
 
 .modal-project-bio {

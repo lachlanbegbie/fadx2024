@@ -52,6 +52,8 @@ async function fillModal(modalIndex) {
             disc = "Industrial Design";
         } else if (selected.discipline == "digmed") {
             disc = "Digital Media";
+        } else if (selected.discipline == "vismar") {
+            disc = "Visual Communications and Marketing Communications";
         } else {
             disc = "Other";
         }
