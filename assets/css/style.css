@@ -420,14 +420,14 @@ iframe{
 
 /* Sponsors */
 
-.company{
+/* .company{
     align-content: center;
     height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 1em;
     padding-bottom: 10em; 
-}
+} */
 
 /* .sponsor-container{
     width: 100%;
@@ -436,60 +436,31 @@ iframe{
     justify-content: space-evenly;
 } */
 
-.gold{
+.company{
     display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 10em;
 }
 
 .one{
-    width: 50em;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    width: 25em;
     padding: 1em;
-    border: #bba53d 3px solid;
-    border-radius: 8px;
-}
+    border: #bba53d 0.3em solid;
+    border-radius: 2em;
 
-.silver{
-    width: 52em;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    border: #a5a9b4 0.5em solid;
-    grid-column-gap: 0.5em;
-    grid-row-gap: 0.5em;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
 }
 
 .two{
     width: 13em;
     padding: 1em;
-}
-
-.bronze{
-    width: 52em;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    border: #6e4d25 0.5em solid; 
-    grid-column-gap: 0.5em;
-}
-
-.three{
-    width: 14em;
-    padding: 1em;
-}
-
-.supporters{
-    width: 52em;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    border: #001752 0.5em solid;
-    grid-column-gap: 0.5em;
-    align-items: center;
-    justify-items: center;
-}
-
-.four{
-    width: 7em;
-    padding: 1em;
+    border: #a5a9b4 0.3em solid;
+    border-radius: 1em;
 }
 
 /* #one{
