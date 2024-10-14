@@ -28,21 +28,40 @@ function addDataCard(data) {
 
     // console.log(data);
 
+    let numbers = [];
+    let range = Array.from({length: 13}, (_, i) => i);
+    
+    // Shuffle and pick the first 8 numbers
+    for (let i = 0; i < 8; i++) {
+        const randomIndex = Math.floor(Math.random() * range.length);
+
+        numbers.push(range[randomIndex]);
+        range.splice(randomIndex, 1); // Remove the chosen number from the range
+    }
+
+    console.log(numbers);
+
     // loop through each item to fill a card
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
         // console.log(data[i]);
 
         // change discipline codes into string text
         var disc = "Undefined";
 
-        if (data[i].discipline == "intdes") {
+        let setItem = numbers[i];
+
+        console.log(data[setItem]);
+
+        if (data[setItem].discipline == "intdes") {
             disc = "Interaction Design";
-        } else if (data[i].discipline == "viscom") {
+        } else if (data[setItem].discipline == "viscom") {
             disc = "Visual Communications Design";
-        } else if (data[i].discipline == "inddes") {
+        } else if (data[setItem].discipline == "inddes") {
             disc = "Industrial Design";
-        } else if (data[i].discipline == "digmed") {
+        } else if (data[setItem].discipline == "digmed") {
             disc = "Digital Media";
+        } else if (data[setItem].discipline == "vismar") {
+            disc = "Visual Communications and Marketing Communications";
         } else {
             disc = "Other";
         }
@@ -53,21 +72,21 @@ function addDataCard(data) {
 
         // fill the card with HTML data
         card.innerHTML = `
-            <img src="./assets/img/student/${data[i].headshot}" alt="">
-            <h4 class="name">${data[i].name}</h4>
-            <div class="dicipline ${data[i].discipline}" id="${data[i].discipline}">
+            <img src="./assets/img/student/${data[setItem].headshot}" alt="">
+            <h4 class="name">${data[setItem].name}</h4>
+            <div class="dicipline ${data[setItem].discipline}" id="${data[setItem].discipline}">
                 <h5>${disc}</h5>
             </div>
             <div class="social-icons">
-                <a href="${data[i].linkedin}" target="_blank" class="icon"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="${data[i].instagram}" target="_blank" class="icon"><i class="fa-brands fa-instagram"></i></a>
-                <a href="${data[i].portfolio}" target="_blank" class="icon"><i class="fa-solid fa-globe"></i></a>
+                <a href="${data[setItem].linkedin}" target="_blank" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="${data[setItem].instagram}" target="_blank" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="${data[setItem].portfolio}" target="_blank" class="icon"><i class="fa-solid fa-globe"></i></a>
             </div>
         `
 
         // set attributes in HTML to be used for modal
-        card.setAttribute('modal-index', `${data[i].id}`);
-        card.setAttribute('onClick', `openModal(${data[i].id})`);
+        card.setAttribute('modal-index', `${data[setItem].id}`);
+        card.setAttribute('onClick', `openModal(${data[setItem].id})`);
 
         // add the current iteration to the end of the container's child list
         container.appendChild(card);
