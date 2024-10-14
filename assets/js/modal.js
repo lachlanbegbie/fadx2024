@@ -65,9 +65,9 @@ async function fillModal(modalIndex) {
                     <img src="./assets/img/student/${selected.headshot}" class="modal-headshot">
 
                     <div class="modal-social-icons">
-                        <a href="#" target="_blank" class="icon"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#" target="_blank" class="icon"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" target="_blank" class="icon"><i class="fa-solid fa-globe"></i></a>
+                        <a href="${selected.linkedin}" target="_blank" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="${selected.instagram}" target="_blank" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="${selected.portfolio}" target="_blank" class="icon"><i class="fa-solid fa-globe"></i></a>
                     </div>
                 </div>
 
