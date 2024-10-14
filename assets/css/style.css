@@ -421,7 +421,7 @@ iframe{
 /* Sponsors */
 
 .company{
-    width: 100%;
+    align-content: center;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -429,14 +429,70 @@ iframe{
     padding-bottom: 10em; 
 }
 
-.sponsor-container{
+/* .sponsor-container{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+} */
+
+.gold{
+    display: grid;
 }
 
-#one{
+.one{
+    width: 50em;
+    padding: 1em;
+    border: #bba53d 3px solid;
+    border-radius: 8px;
+}
+
+.silver{
+    width: 52em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: #a5a9b4 0.5em solid;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.two{
+    width: 13em;
+    padding: 1em;
+}
+
+.bronze{
+    width: 52em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: #6e4d25 0.5em solid; 
+    grid-column-gap: 0.5em;
+}
+
+.three{
+    width: 14em;
+    padding: 1em;
+}
+
+.supporters{
+    width: 52em;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: #001752 0.5em solid;
+    grid-column-gap: 0.5em;
+    align-items: center;
+    justify-items: center;
+}
+
+.four{
+    width: 7em;
+    padding: 1em;
+}
+
+/* #one{
     height: 200px;
 }
 
@@ -446,7 +502,7 @@ iframe{
 
 #three{
     height: 100px;
-}
+} */
 
 .sponsor-logo{
     min-height: 100px;
