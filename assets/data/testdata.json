@@ -51,7 +51,7 @@
 		  "projectbio": "oopsie! is a commercial packaging solution that I designed to address the gap in the market for bandages - these are fun, affordable adhesive bandages for people of all ages with a built-in dispenser.",
 		  "instagram": "https://www.instagram.com/jemmavrkicdesign/",
 		  "linkedin": "www.linkedin.com/in/jemmavrkicdesign",
-		  "portfolio": "still in progress, here's my linktree which will have the link shortly: https://linktr.ee/jemmavrkicdesign"
+		  "portfolio": "https://linktr.ee/jemmavrkicdesign"
 		},
 		{
 		  "id": 5,
@@ -109,7 +109,7 @@
 		  "id": 9,
 		  "name": "Ezra Readhead",
 		  "discipline": "intdes",
-		  "headshot": "DSC_2470 - Ezra R.JPEG",
+		  "headshot": "DSC_2470 - Ezra R.jpeg",
 		  "bio": "Hey, I’m Ezra and I care about designing engaging and accessible digital experiences that employ the latest technologies.",
 		  "project": "EzraReadhead_Project - Ezra R.jpg",
 		  "projectname": "MyGov App Proposal",
@@ -153,7 +153,7 @@
 		  "project": "cycling74 max - Maxwell Corcoran.jpg",
 		  "projectname": "Hand Tracking Synthesiser",
 		  "projectbio": "I built a synth that utilised the multimedia visual programming language Cycling '74 Max, and the integration of MediaPipe, an open-source framework that supports the tracking of hand movement.",
-		  "instagram": "www.instagram.com/est.well/ (might change the name ill send you an updated link if so)",
+		  "instagram": "www.instagram.com/est.well/",
 		  "linkedin": "www.linkedin.com/in/maxiswell/",
 		  "portfolio": "maxestwell.github.io/website/"
 		},
@@ -169,6 +169,58 @@
 		  "instagram": "https://www.instagram.com/ffcreative_space/",
 		  "linkedin": "https://www.linkedin.com/in/folu-falaki-a932b4239/",
 		  "portfolio": "https://www.ffcreativespace.au/"
+		},
+		{
+		  "id": 14,
+		  "name": "Joshua Barclay",
+		  "discipline": "digmed",
+		  "headshot": "JoshuaBarclay_Headshot - Joshua Barclay.png",
+		  "bio": "Hi I'm Josh, I study Digital Media at UC. I have a passion for using digital mediums to communicate to audiences. You'll often find me testing out new skills on Canva or Illustrator. I enjoy making social media posts, creating and animating illustrations, and user-centred design",
+		  "project": "JoshuaBarclay_SocialMediaTileMockups - Joshua Barclay.png",
+		  "projectname": "Social Media Tile Mock-ups",
+		  "projectbio": "This project was to create mock-up tiles for a fake social media account. The aim was to learn how to make designs for social media, which helped me with my social media administrator internship. ",
+		  "instagram": "https://www.instagram.com/stamina.bottle/",
+		  "linkedin": "https://www.linkedin.com/in/joshua-barclay-902092288/",
+		  "portfolio": "https://joshuabarclay89.wixsite.com/joshportfolio"
+		},
+		{
+		  "id": 15,
+		  "name": "Lloyd Ducksbury",
+		  "discipline": "digmed",
+		  "headshot": "LloydDucksbury_headshot - DucksBerries (DucksBerries).jpg",
+		  "bio": "Lloyd is an artist and animator studying Digital Media. His work at UC has included character design, animation and creative writing, and he further exercises these skills through his DucksBerries YouTube channel, which has garnered almost 90k views.",
+		  "project": "LloydDucksbury_HybridAnimationTest - DucksBerries (DucksBerries).png",
+		  "projectname": "Hybrid Animation Test",
+		  "projectbio": "This project is a demonstration of hybrid animation. The bulk of the character was created with 2d hand-drawn animation, while his left arm and eyebrows were created in 3d.",
+		  "instagram": "https://www.instagram.com/ducksberries/",
+		  "linkedin": "https://www.linkedin.com/in/lloyd-ducksbury-ab5b67332/",
+		  "portfolio": "https://ducksberries.artstation.com"
+		},
+		{
+		  "id": 16,
+		  "name": "Oliver Broadbent ",
+		  "discipline": "inddes",
+		  "headshot": "Headshot Smaller - Oliver Broadbent.png",
+		  "bio": "I’m Oliver, an Industrial Designer with a passion for creating sustainable and long-lasting products. My design philosophy revolves around reducing waste and supporting the right to repair movement. I’m particularly focused on furniture design, where craftsmanship and functionality meet.",
+		  "project": "Front2 crop - Oliver Broadbent.jpg",
+		  "projectname": "Bamboo x Forged Carbon Seat",
+		  "projectbio": "The brief was for a group of 2 students to create a seat able to hold 99kg using only two randomly assigned materials. We designed a lightweight stool from Bamboo and Forged Carbon Steel.",
+		  "instagram": "https://www.instagram.com/o.broad.design/",
+		  "linkedin": "https://www.linkedin.com/in/oliver-broadbent-a72579257/",
+		  "portfolio": "https://www.obroaddesign.com/home"
+		},
+		{
+		  "id": 17,
+		  "name": "Nicole Teoh",
+		  "discipline": "inddes",
+		  "headshot": "nicole-headshot-compressed - Nicole Teoh.png",
+		  "bio": "Hi, Im Nicole, an industrial designer who enjoys material exploration and using new processes to display creative forms. I design with a focus of longevity and optimism in mind. Streamlining the making process without compromising the artistic element of good design.",
+		  "project": "better colour-01-hero-WT-Nicole - Nicole Teoh.png",
+		  "projectname": "The Wave Table",
+		  "projectbio": "The WAVE Table draws people together like how each strip of fibre overlaps the next. Unlike traditional woven furniture which need a structural frame to support its shape, carbon fibre’s strength and flexibility allows it to act as both the ‘frame and mesh’ of the table; allowing us to streamline the material palette.",
+		  "instagram": "https://www.instagram.com/nicoleteoh.design/",
+		  "linkedin": "https://www.linkedin.com/in/nicole-teoh-b53a04236/",
+		  "portfolio": "https://www.nicoleteoh.com/"
 		}
 	   ]
 	}

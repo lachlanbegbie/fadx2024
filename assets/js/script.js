@@ -29,7 +29,7 @@ function addDataCard(data) {
     // console.log(data);
 
     let numbers = [];
-    let range = Array.from({length: 13}, (_, i) => i);
+    let range = Array.from({length: 17}, (_, i) => i);
     
     // Shuffle and pick the first 8 numbers
     for (let i = 0; i < 8; i++) {
