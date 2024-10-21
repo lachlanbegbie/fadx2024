@@ -974,13 +974,13 @@ footer a{
 
 @media screen and (max-width: 770px) {
     .modal {
-        margin-top: 20dvh;
-        height: 80dvh;
+        /* margin-top: 20dvh; */
+        height: 100dvh;
     }
 
     .modal-content {    
         width: 90dvw;
-        min-height: 80dvh;
+        min-height: 100dvh;
         float: left;
     
         padding: 3.5em 4em;
