@@ -53,7 +53,7 @@ async function fillModal(modalIndex) {
         } else if (selected.discipline == "digmed") {
             disc = "Digital Media";
         } else if (selected.discipline == "vismar") {
-            disc = "Visual Communications and Marketing Communications";
+            disc = "Visual Communications/Marketing Communications";
         } else {
             disc = "Other";
         }
@@ -62,6 +62,8 @@ async function fillModal(modalIndex) {
 
 
         containerItem.innerHTML = `
+            <i class="exit fa-solid fa-xmark" id="modalExit" onclick="closeModal()"></i>
+
             <div class="modal-intro">
                 <div class="image-links">
                     <img src="./assets/img/student/${selected.headshot}" class="modal-headshot">
@@ -82,6 +84,8 @@ async function fillModal(modalIndex) {
             </div>
 
             <div class="modal-project">
+                <h2 class="modal-disc">${selected.projectname}</h2>
+
                 <img src="./assets/img/student/${selected.project}" class="modal-proj-img">
 
                 <p class="modal-project-bio">${selected.projectbio}</p>

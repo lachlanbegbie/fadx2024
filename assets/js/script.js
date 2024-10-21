@@ -46,7 +46,8 @@ function addDataCard(data) {
         // console.log(data[i]);
 
         // change discipline codes into string text
-        var disc = "Undefined";
+        var disc = "";
+        var tag = "";
 
         let setItem = numbers[i];
 
@@ -61,7 +62,8 @@ function addDataCard(data) {
         } else if (data[setItem].discipline == "digmed") {
             disc = "Digital Media";
         } else if (data[setItem].discipline == "vismar") {
-            disc = "Visual Communications and Marketing Communications";
+            disc = "Visual Communications/";
+            tag = "Marketing Communications";
         } else {
             disc = "Other";
         }
@@ -75,7 +77,7 @@ function addDataCard(data) {
             <img src="./assets/img/student/${data[setItem].headshot}" alt="">
             <h4 class="name">${data[setItem].name}</h4>
             <div class="dicipline ${data[setItem].discipline}" id="${data[setItem].discipline}">
-                <h5>${disc}</h5>
+                <h5>${disc}<br>${tag}</h5>
             </div>
             <div class="social-icons">
                 <a href="${data[setItem].linkedin}" target="_blank" class="icon"><i class="fa-brands fa-linkedin"></i></a>
