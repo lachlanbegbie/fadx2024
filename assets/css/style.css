@@ -647,6 +647,8 @@ footer a{
     /* bottom: 0; */
 
     z-index: 300;
+
+    overflow: scroll;
 }
 
 .modal-content {
