@@ -74,7 +74,7 @@ function addDataCard(data) {
 
         // fill the card with HTML data
         card.innerHTML = `
-            <img src="./assets/img/student/${data[setItem].headshot}" alt="">
+            <div class="card-div" id="${data[setItem].discipline}"><img src="./assets/img/student/${data[setItem].headshot}" alt=""></div>
             <h4 class="name">${data[setItem].name}</h4>
             <div class="dicipline ${data[setItem].discipline}" id="${data[setItem].discipline}">
                 <h5>${disc}<br>${tag}</h5>
