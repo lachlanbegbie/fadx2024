@@ -994,4 +994,8 @@ footer a{
     .modal-top {
         padding: 5em 2em 0em 2em;
     }
+
+    .modal-project img{
+        margin-left: 5em;
+    }
 }
