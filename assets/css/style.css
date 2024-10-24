@@ -938,9 +938,10 @@ footer a{
     footer .box p{
     grid-column-start: 1;
     grid-row-start: 1;
-    padding-left: 0.5em;
+    padding-top: 1em;
+    /* padding-left: 0.5em;
     padding-right: 0.5em;
-    padding-bottom: 4em;
+    padding-bottom: 4em; */
     text-align: left;
     }
 
@@ -1076,4 +1077,8 @@ footer a{
     .container {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+#text{
+    margin: 10px 0;
 }
