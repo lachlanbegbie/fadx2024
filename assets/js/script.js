@@ -26,6 +26,8 @@ function addDataCard(data) {
     // get container where all cards are places
     const container = document.getElementById("spotlight-container");
 
+    container.innerHTML = "";
+
     // console.log(data);
 
     let numbers = [];
