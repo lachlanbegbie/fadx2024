@@ -50,7 +50,7 @@
 		  "projectname": "oopsie! Packaging solution",
 		  "projectbio": "oopsie! is a commercial packaging solution that I designed to address the gap in the market for bandages - these are fun, affordable adhesive bandages for people of all ages with a built-in dispenser.",
 		  "instagram": "https://www.instagram.com/jemmavrkicdesign/",
-		  "linkedin": "www.linkedin.com/in/jemmavrkicdesign",
+		  "linkedin": "https://www.linkedin.com/in/jemmavrkicdesign",
 		  "portfolio": "https://linktr.ee/jemmavrkicdesign"
 		},
 		{
@@ -102,7 +102,7 @@
 		  "projectname": "Verdant - Visual Branding and Packaging Design",
 		  "projectbio": "This project involved creating a visual branding identity aswell as a packaging design. The company is a startup body wash brand that was launching it's first product line.",
 		  "instagram": "https://www.instagram.com/clstudio33/",
-		  "linkedin": "www.linkedin.com/in/ciel-georgievski-144ab5236",
+		  "linkedin": "https://www.linkedin.com/in/ciel-georgievski-144ab5236",
 		  "portfolio": "https://u3229663bd43.myportfolio.com/"
 		},
 		{
@@ -116,7 +116,7 @@
 		  "projectbio": "My MyGov app proposal addresses challenges older Australians face in a digital world, integrating essential services into one platform with a customisable interface for a tailored user experience.",
 		  "instagram": "https://www.instagram.com/cavocollective/",
 		  "linkedin": "https://www.linkedin.com/in/ezra-readhead/",
-		  "portfolio": "cavocollective.squarespace.com"
+		  "portfolio": "https://cavocollective.squarespace.com"
 		},
 		{
 		  "id": 10,
@@ -141,8 +141,8 @@
 		  "projectname": "Scions: Ultimate lore and guidebook",
 		  "projectbio": "Created for a Digital Production project, this digital e-book explores the magical world of Talos, rich with secrets and history. Follow the stories of each house’s scions and choose your side.",
 		  "instagram": "https://www.instagram.com/tom_summerfield_designs/",
-		  "linkedin": "www.linkedin.com/in/thomas-summerfield-111969217",
-		  "portfolio": "tdsummerfield.artstation.com"
+		  "linkedin": "https://www.linkedin.com/in/thomas-summerfield-111969217",
+		  "portfolio": "https://tdsummerfield.artstation.com"
 		},
 		{
 		  "id": 12,
@@ -153,9 +153,9 @@
 		  "project": "update - Max.png",
 		  "projectname": "Hand Tracking Synthesiser",
 		  "projectbio": "I built a synth that utilised the multimedia visual programming language Cycling '74 Max, and the integration of MediaPipe, an open-source framework that supports the tracking of hand movement.",
-		  "instagram": "www.instagram.com/est.well/",
-		  "linkedin": "www.linkedin.com/in/maxiswell/",
-		  "portfolio": "maxestwell.github.io/website/"
+		  "instagram": "https://www.instagram.com/est.well/",
+		  "linkedin": "https://www.linkedin.com/in/maxiswell/",
+		  "portfolio": "https://maxestwell.github.io/website/"
 		},
 		{
 		  "id": 13,
